@@ -1,0 +1,22 @@
+# config/database.yml
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: db
+  username: postgres
+  password: password
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: pj_hab_techblog_api_development
+
+test:
+  <<: *default
+  database: pj_hab_techblog_api_test
+
+production:
+  <<: *default
+  database: pj_hab_techblog_api_production
+  username: pj_hab_techblog_api
+  password: <%= ENV['PJ_HAB_TECHBLOG_API_DATABASE_PASSWORD'] %>
