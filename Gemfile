@@ -46,3 +46,6 @@ group :development do
   # gem "spring"
 end
 
+gem 'feedjira', '~> 3.2'
+gem 'sax-machine', '~> 1.3'
+gem 'httparty', '~> 0.18.1'
