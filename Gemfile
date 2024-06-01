@@ -7,7 +7,7 @@ ruby "3.1.2"
 gem "rails", "~> 7.0.8", ">= 7.0.8.3"
 
 # Use postgresql as the database for Active Record
-gem "pg", "~> 1.1"
+# gem "pg", "~> 1.1"
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
@@ -49,3 +49,5 @@ end
 gem 'feedjira', '~> 3.2'
 gem 'sax-machine', '~> 1.3'
 gem 'httparty', '~> 0.18.1'
+
+gem "mysql2", "~> 0.5"
