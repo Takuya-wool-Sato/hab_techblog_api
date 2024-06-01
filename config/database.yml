@@ -16,7 +16,11 @@ test:
   database: pj_hab_techblog_api_test
 
 production:
-  <<: *default
-  database: pj_hab_techblog_api_production
-  username: pj_hab_techblog_api
-  password: <%= ENV['PJ_HAB_TECHBLOG_API_DATABASE_PASSWORD'] %>
+  adapter: mysql2
+  encoding: utf8mb4
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  database: <%= ENV['MYSQL_DATABASE'] %>
+  url: <%= ENV['MYSQL_URL'] %>
+  username: <%= ENV['MYSQL_USERNAME'] %>
+  password: <%= ENV['MYSQL_PASSWORD'] %>
+  host: <%= ENV['MYSQL_HOST'] %>

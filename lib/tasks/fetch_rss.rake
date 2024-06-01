@@ -5,8 +5,8 @@ namespace :rss do
   desc "Fetch RSS feeds and save to database for each user"
   task fetch: :environment do
     user_feeds = {
-      "Harayama Takuya" => { link: 'https://toaru-kaihatsu.com/feed/', avatarSrc: 'http://localhost:3000/avatars/harayama.jpg' },
-      "Sato Takuya" => { link: 'https://wool-blog-astroship.vercel.app/rss.xml', avatarSrc: 'http://localhost:3000/avatars/s-takuya.jpg' },
+      "Harayama Takuya" => { link: 'https://toaru-kaihatsu.com/feed/', avatarSrc: 'https://hab-engineer-api-cca27281d192.herokuapp.com/avatars/harayama.jpg' },
+      "Sato Takuya" => { link: 'https://wool-blog-astroship.vercel.app/rss.xml', avatarSrc: 'https://hab-engineer-api-cca27281d192.herokuapp.com/avatars/s-takuya.jpg' },
     }
 
 
