@@ -4,9 +4,9 @@ class ArticlesController < ApplicationController
     user_name = params[:name]
     keyword = params[:q]
     if user_name
-      @articles = Article.where(name: user_name)
+      @articles = Article.where(name: user_name).order("pubDate DESC")
     else
-      @articles = Article.all
+      @articles = Article.all.order("pubDate DESC")
       @articles = @articles.where('title LIKE ? OR summary LIKE ?', "%#{keyword}%", "%#{keyword}%") if keyword.present?
     end
     render json: @articles
