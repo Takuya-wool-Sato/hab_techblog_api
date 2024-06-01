@@ -51,3 +51,5 @@ gem 'sax-machine', '~> 1.3'
 gem 'httparty', '~> 0.18.1'
 
 gem "mysql2", "~> 0.5"
+
+gem 'rack-cors'
