@@ -11,7 +11,9 @@ namespace :rss do
       "nagisa" => { link: 'https://qiita.com/nagisa-afadfadf/feed', avatarSrc: 'https://hab-engineer-api-e2d7db2fc28c.herokuapp.com/avatars/nagisa.jpg' },
       "Kayashima Naho" => { link: 'https://qiita.com/naho-0624/feed', avatarSrc: 'https://hab-engineer-api-e2d7db2fc28c.herokuapp.com/avatars/naho.jpg' },
       "Ueno Syoya" => { link: 'https://qiita.com/shoya_u/feed', avatarSrc: 'https://hab-engineer-api-e2d7db2fc28c.herokuapp.com/avatars/ueno.jpeg' },
+      "Nagato Shota" => { link: 'https://www.nagato-tech.com/feed.xml', avatarSrc: 'https://hab-engineer-api-e2d7db2fc28c.herokuapp.com/avatars/nagato.jpeg' },
     }
+
 
 
     user_feeds.each do |user_name, feed_data|
