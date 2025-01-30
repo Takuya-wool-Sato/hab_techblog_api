@@ -10,6 +10,7 @@ namespace :rss do
       "nakasima" => { link: 'https://zenn.dev/a_nakashima/feed', avatarSrc: 'https://hab-engineer-api-e2d7db2fc28c.herokuapp.com/avatars/nakasima.png' },
       "nagisa" => { link: 'https://qiita.com/nagisa-afadfadf/feed', avatarSrc: 'https://hab-engineer-api-e2d7db2fc28c.herokuapp.com/avatars/nagisa.jpg' },
       "Kayashima Naho" => { link: 'https://qiita.com/naho-0624/feed', avatarSrc: 'https://hab-engineer-api-e2d7db2fc28c.herokuapp.com/avatars/naho.jpg' },
+      "Ueno Syoya" => { link: 'https://qiita.com/shoya_u/feed', avatarSrc: 'https://hab-engineer-api-e2d7db2fc28c.herokuapp.com/avatars/ueno.jpeg' },
     }
 
 
